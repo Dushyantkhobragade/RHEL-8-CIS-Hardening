@@ -220,8 +220,7 @@
         lineinfile:
           path: /etc/rsyslog.conf
           regexp: "^#?\\*\\.\\*\\s+"
-          line: "*.*      @@DAIMLER_LOG_HOST"
-#           line: "*.*      @@{{ DAIMLER_LOG_HOST }}"
+          line: "*.*      @@LOG_HOST"
           state: present
           backup: yes
 
