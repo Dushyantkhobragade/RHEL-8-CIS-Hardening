@@ -140,7 +140,6 @@
           mode: u=rw,g=r,o=r
           marker: "##################################################################################"
           block: |
-            This is Daimler AG Server
             Authorized uses only. All activity may be monitored and reported.
         with_items:
           - { path: '/etc/motd' }
